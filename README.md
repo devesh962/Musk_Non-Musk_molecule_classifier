@@ -18,22 +18,34 @@ Removal of correlated features make learning algorithm faster as less features u
 Model
 
 Layer (type)                          Output Shape              Param
-conv2d_1 (Conv2D)                     (None, 11, 6, 32)         320       
+
+
+conv2d_1 (Conv2D)                     (None, 11, 6, 32)         320
+
 _________________________________________________________________
-conv2d_2 (Conv2D)                     (None, 9, 4, 64)          18496     
+conv2d_2 (Conv2D)                     (None, 9, 4, 64)          18496
+
 _________________________________________________________________
-batch_normalization_1 (Batch)         (None, 9, 4, 64)          256       
+batch_normalization_1 (Batch)         (None, 9, 4, 64)          256
+
 _________________________________________________________________
-max_pooling2d_1 (MaxPooling2D)        (None, 4, 2, 64)          0         
+max_pooling2d_1 (MaxPooling2D)        (None, 4, 2, 64)          0
+
 _________________________________________________________________
-flatten_1 (Flatten)                   (None, 512)               0         
+flatten_1 (Flatten)                   (None, 512)               0
+
 _________________________________________________________________
-dense_1 (Dense)                       (None, 128)               65664     
+dense_1 (Dense)                       (None, 128)               65664
+
 _________________________________________________________________
-dropout_1 (Dropout)                   (None, 128)               0         
+dropout_1 (Dropout)                   (None, 128)               0
+
 _________________________________________________________________
-dense_2 (Dense)                       (None, 1)                 129       
+dense_2 (Dense)                       (None, 1)                 129
+
 Total params: 84,865
+
 Trainable params: 84,737
+
 Non-trainable params: 128
 _________________________________________________________________
