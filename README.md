@@ -17,7 +17,7 @@ Removal of correlated features make learning algorithm faster as less features u
 
 Model
 
-Layer (type)                          Output Shape              Param
+Layer (type)                          Output-Shape              Param
 
 
 conv2d_1 (Conv2D)                     (None, 11, 6, 32)         320
