@@ -16,6 +16,7 @@ As there are a large No. of features(166) which will be used to predict the mole
 Removal of correlated features make learning algorithm faster as less features usually mean high improvement in terms of speed.
 
 Model
+<pre>
 
 Layer (type)                          Output-Shape              Param
 
@@ -49,3 +50,4 @@ Trainable params: 84,737
 
 Non-trainable params: 128
 _________________________________________________________________
+</pre>
